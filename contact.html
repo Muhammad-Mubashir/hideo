@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Hideo</title>
+
+    <!-- Bootstrap -->
+    <link rel="icon" href="assets/img/bg_robot.jpg">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand working" href="#"><img src="assets/img/logo.jpg" alt=""></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">HOME <span class="sr-only">(current)</span></a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="team.html">TEAM</a></li>
+        <li class="active"><a href="contact.html">CONTACT</a></li>
+      </ul>
+      
+      
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav><!-- container -->
+  <div class="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="pull-left">
+            <h1>Keep in touch with us</h1>
+          </div><!-- pull-left -->
+        </div><!-- col-sm-3 -->
+        <div class="col-sm-8">
+          <div class="pull-right">
+            <ul class="list-inline">
+              <li><a href="#">Home /</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div><!-- pull-right -->
+        </div><!-- col-sm-9 -->
+      </div><!-- row -->
+    </div><!-- container -->
+  </div><!-- about -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="address">
+          <h4>Address:</h4>
+          <p><i class="fa fa-map-marker"></i> 2001 Space Odyseey</p>
+          <p>Houston, Texas - USA</p>
+          <p><i class="fa fa-phone"></i> 256.478.3252</p>
+          <span><i class="fa fa-envelope"></i> little@little-neko.com</span>
+        </div><!-- address -->
+      </div><!-- col-sm-4 -->
+      <div class="col-sm-4">
+        <div class="formation">
+          <h3>Name</h3>
+          <input type="text" placeholder="Enter name">
+          <h3>Email</h3>
+          <input type="text" placeholder="Enter email">
+          <h3>Phone</h3>
+          <input type="text" placeholder="Enter email phone"><br>
+          <button class="format">Submit</button>
+        </div><!-- formation -->
+      </div><!-- col-sm-4 -->
+      <div class="col-sm-4">
+        <div class="formation">
+          <h3>Comments</h3>
+          <textarea placeholder="Enter your message..." class="text" rows="3"></textarea>
+          <h3 class="grey">Security</h3>
+          <img src="assets/img/number.gif" alt="">
+          <input type="text" class="work">
+        </div><!-- formation -->
+      </div><!-- col-sm-4 -->
+    </div><!-- row -->
+  </div><!-- container -->
+
+<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+<div class="map">
+<div style='overflow:hidden;height:440px;width:100%;'><div id='gmap_canvas' style='height:440px;width:100%;'></div><div><small><a href="http://www.googlemapsgenerator.com/en/">Embed a google map onto your website!                  Use our map embed tool                  Visit our website</a></small></div><div><small><a href="https://couponcode.ng/">Best online shopping in Nigeria, Get more discounts!</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div>
+</div>
+<script type='text/javascript'>function init_map(){var myOptions = {zoom:18,center:new google.maps.LatLng(24.8651254,67.0217725),mapTypeId: google.maps.MapTypeId.HYBRID};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(24.8651254,67.0217725)});infowindow = new google.maps.InfoWindow({content:'<strong>Al Nasihah Academy</strong><br>central mall, karachi<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);
+</script>
+
+<div class="bg-4 mt-1">
+  <div class="container">
+    <div class="col-sm-12">
+      <div class="social-media text-center">
+        <ul class="list-inline">
+          <li><a href="http:www.facebook.com" target="_blank"><i class="fa fa-facebook rounded"></i></a></li>
+          <li><a href="http:www.twitter.com" target="_blank"><i class="fa fa-twitter rounded"></i></a></li>
+          <li><a href="https://plus.google.com/collections/featured" target="_blank"><i class="fa fa-google-plus rounded"></i></a></li>
+          <li><a href="http:www.linkedin.com" target="_blank"><i class="fa fa-linkedin rounded"></i></a></li>
+          <li><a href="http:www.dribbble.com" target="_blank"><i class="fa fa-dribbble rounded"></i></a></li>
+        </ul>
+      </div><!-- social-media -->
+    </div><!-- col-sm-12 -->
+    <div class="col-sm-12">
+      <div class="reserved text-center">
+        <p>Copyright &copy; 2012 <span>Little NEKO</span> / All rights reserved.</p>
+      </div><!-- reserved -->
+    </div><!-- col-sm-12 -->
+  </div><!-- container -->
+</div><!-- bg-4 -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="assets/js/bootstrap.min.js"></script>
+  </body>
+</html>
